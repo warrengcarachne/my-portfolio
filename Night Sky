@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Astronomy Passion Scratch Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 3 div blocks: header, main content, footer -->
+
+  <header>
+    <h1>Astronomy: Exploring the Night Sky</h1>
+    <nav>
+      <a href="#intro">Introduction</a> |
+      <a href="#lists">Stars and Constellations</a> |
+      <a href="#image">Astronomy Image</a> |
+      <a href="#video">YouTube Video</a> |
+      <a href="#tableau">Tableau Graph</a> |
+      <a href="#professional">Professional Site</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section 1: Introduction -->
+    <section id="intro">
+      <h2>Welcome to My Astronomy Scratch Page</h2>
+      <p>Astronomy is the study of celestial objects, space, and the universe as a whole. This page showcases my enthusiasm for astronomy with interactive content and visuals.</p>
+    </section>
+
+    <!-- Section 2: Lists - unordered list inside ordered list -->
+    <section id="lists">
+      <h2>Stars and Constellations</h2>
+      <ol>
+        <li>Major Constellations
+          <ul>
+            <li>Orion</li>
+            <li>Ursa Major</li>
+            <li>Scorpius</li>
+          </ul>
+        </li>
+        <li>Brightest Stars
+          <ul>
+            <li>Sirius</li>
+            <li>Canopus</li>
+            <li>Arcturus</li>
+          </ul>
+        </li>
+        <li>Types of Stars
+          <ul>
+            <li>Red Dwarfs</li>
+            <li>White Dwarfs</li>
+            <li>Supergiants</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Section 3: Image -->
+    <section id="image">
+      <h2>Image: Orion Constellation</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Orion_Constellation_map.svg" alt="Orion Constellation Map" />
+      <p>This is a star map of the Orion constellation, one of the most recognizable in the night sky.</p>
+    </section>
+
+    <!-- Section 4: Embedded YouTube Video -->
+    <section id="video">
+      <h2>Watch: Introduction to the Night Sky</h2>
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/FzQ8Xlm-2aI" 
+        title="Introduction to Night Sky" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </section>
+
+    <!-- Section 5: Embedded Tableau graph -->
+    <section id="tableau">
+      <h2>Interactive Tableau Visualization: Star Brightness & Temperature</h2>
+      <iframe src="https://public.tableau.com/views/H-RDiagram_16450252088310/H-RDiagram?:embed=y&:display_count=yes&:toolbar=yes"
+        width="900" height="600"></iframe>
+      <p>This interactive Hertzsprung-Russell diagram shows star brightness vs. temperature.</p>
+    </section>
+
+    <!-- Section 6: Navigation link back to professional site -->
+    <section id="professional">
+      <h2>Visit My Professional Page</h2>
+      <p>Check out my professional site for more projects: 
+        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">https://www.example.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+
+</body>
+</html>
