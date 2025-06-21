@@ -1,0 +1,60 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  background-color: #0b3d91; /* dark blue background for night sky feel */
+  margin: 0;
+  padding: 0;
+}
+
+header, main, footer {
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #f4f6f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+header {
+  text-align: center;
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border: none;
+}
+
+/* Styling for lists */
+ol, ul {
+  padding-left: 20px;
+}
+
+/* Div layout: header, content, footer */
